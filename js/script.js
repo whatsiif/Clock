@@ -13,9 +13,16 @@ function clock(){
     if(h > 12){
         h = h -12 ;
     }
+
+    // if(s < 10){
+    //     s = "0" + s;
+    // }
+    // else{
+    //     s = s};
+
     h = (h < 10) ? "0" + h : h;
-    // m = (h < 10) ? '0' + m : m;
-    // s = (h < 10) ? "0" + s : s;
+    m = (m < 10) ? "0" + m : m;
+    s = (s < 10) ? "0" + s : s;
     
 
     hours.innerHTML = h;
