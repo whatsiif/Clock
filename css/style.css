@@ -12,7 +12,8 @@ body, .time, .left-side, .right-side, .right-top, .right-down {
 }
 body{
     min-height: 80vh;
-    background: #d2f5f6;
+     background: #4ca1af;
+    background: linear-gradient(to right, #4ca1af, #c4e0e5);
 }
 
 .clock, .time, .right-side, .right-top, .right-down{
@@ -23,7 +24,7 @@ body{
     color: #11657a;
     background:#fafdff ;
     width: 450px ;
-    padding: 20px 45px;
+    padding: 20px 25px;
     /* box-shadow: 0 5px 25px rgba (14, 21, 37, 0.8); */
     /* font-size: 30px; */
     border-radius: 10px;
